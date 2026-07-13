@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TransMamba: Fast Universal Architecture Adaption from Transformers to Mamba</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">TransMamba: Fast Universal Architecture Adaption from Transformers to Mamba</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://transmamba.github.io/" target="_blank">Xiuwei Chen</a><sup style="color:#0077cc;">1</sup>, 
+            </span>
+            <span class="author-block">
+              <a href="https://transmamba.github.io/" target="_blank">Wentao Hu</a><sup style="color:#28a745;">2</sup>, 
+            </span>
+            <span class="author-block">
+              <a href="https://transmamba.github.io/" target="_blank">Xiao Dong</a><sup style="color:#0077cc;">1</sup>, 
+            </span>
+            <span class="author-block">
+              <a href="https://transmamba.github.io/" target="_blank">Sihao Lin</a><sup style="color:#fd7e14;">3</sup>, 
+            </span>
+            <span class="author-block">
+              <a href="https://transmamba.github.io/" target="_blank">Zisheng Chen</a><sup style="color:#0077cc;">1</sup>, 
+            </span>
+            <span class="author-block">
+              <a href="https://transmamba.github.io/" target="_blank">Meng Cao</a><sup style="color:#9d50bb;">4</sup>, 
+            </span>
+            <span class="author-block">
+              <a href="https://transmamba.github.io/" target="_blank">Yina Zhuang</a><sup style="color:#0077cc;">1</sup>, 
+            </span> <br>
+            <span class="author-block">
+              <a href="https://transmamba.github.io/" target="_blank">Jianhua Han</a><sup style="color:#00bfff;">5</sup>, 
+            </span>
+            <span class="author-block">
+              <a href="https://transmamba.github.io/" target="_blank">Hang Xu</a><sup style="color:#00bfff;">5</sup>, 
+            </span>
+            <span class="author-block">
+              <a href="https://transmamba.github.io/" target="_blank">Xiaodan Liang</a><sup style="color:#0077cc;">*1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup style="color:#0077cc;">1</sup>Sun Yat-sen University,</span>
+            <span class="author-block"><sup style="color:#28a745;">2</sup>Hong Kong Polytechnic University,</span>
+            <span class="author-block"><sup style="color:#fd7e14;">3</sup>University of Adelaide,</span> <br>
+            <span class="author-block"><sup style="color:#9d50bb;">4</sup>Peking University,</span>
+            <span class="author-block"><sup style="color:#00bfff;">5</sup>Huawei Noah’s Ark Lab</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2502.15130"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2502.15130"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>-->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/chen-xw/TransMamba-main"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. 
+              <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Transformer-based architectures have become the backbone of both uni-modal and multi-modal foundation models, largely due to their scalability via attention mechanisms, resulting in a rich ecosystem of publicly available pre-trained models such as LLaVA, CLIP, and DeiT, etc. In parallel, emerging sub-quadratic architectures like Mamba offer promising efficiency gains by enabling global context modeling with linear complexity. However, training these architectures from scratch remains resource-intensive (e.g., in terms of data and time).
+Motivated by this challenge, we explore a cross-architecture knowledge transfer paradigm, termed TransMamba, that facilitates the reuse of Transformer pre-trained knowledge. We propose a two-stage framework to accelerate the training of Mamba-based models, ensuring their effectiveness across both uni-modal and multi-modal tasks. The first stage leverages pre-trained Transformer models to initialize critical components of the Mamba architecture. To bridge architectural and dimensional gaps, we develop a selective weight subcloning strategy and a layered initialization scheme that prioritizes the early n layers.
+Building on this initialization, the second stage introduces an adaptive multi-directional knowledge distillation method. This mechanism employs layer-wise adaptive scaling factors to align Mamba representations with their Transformer counterparts, while accommodating the scanning order variations inherent to multi-modal Mamba architectures.
+Despite operating with a reduced training dataset and a more compact model architecture, TransMamba consistently outperforms baseline approaches across diverse mamba-based backbones (e.g., PlainMamba, Vmamba, ViM and VideoMamba) and downstream tasks (e.g., image classification, visual question answering, text-video retrieval and multimodal reasoning). 
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{chen2025transmamba,
+  author        = {Xiuwei Chen and Wentao Hu and Xiao Dong and Sihao Lin and Zisheng Chen and Meng Cao and Yina Zhuang and Jianhua Han and Hang Xu and Xiaodan Liang},
+  title         = {TransMamba: Fast Universal Architecture Adaption from Transformers to Mamba},
+  year          = {2025},
+  eprint        = {2502.15130},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2502.15130}, 
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is adapted from  <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
